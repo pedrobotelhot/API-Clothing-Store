@@ -6,7 +6,7 @@ Essa API RESTful vai permitir para um ecommerce ter um controle todas de suas ve
 Dentro das funções temos:
 
 *[**Venda**](#reference/recursos/venda)
-*[**Carrinho**](#reference/recursos/carrinho)
+\n[**Carrinho**](#reference/recursos/carrinho)
 *[**Clientes**](#reference/recursos/clientes)
 *[**Roupas**](#reference/recursos/roupas)
 *[**Marca**](#reference/recursos/marca)
