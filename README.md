@@ -26,7 +26,7 @@ Dentro das funções temos:
 
 Vendas realizadas, novas vendas e cancelar.
 
-##Listar
+## Listar
 
 ##Novo
 
