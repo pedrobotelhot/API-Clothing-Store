@@ -5,14 +5,21 @@ Essa API RESTful vai permitir para um ecommerce ter um controle todas de suas ve
 
 Dentro das funções temos:
 
-*[**Venda**](#reference/recursos/venda)
-\n[**Carrinho**](#reference/recursos/carrinho)
-*[**Clientes**](#reference/recursos/clientes)
-*[**Roupas**](#reference/recursos/roupas)
-*[**Marca**](#reference/recursos/marca)
-*[**Sexo**](#reference/recursos/sexo)
-*[**Tamanho**](#reference/recursos/tamanho)
-*[**Foto**](#reference/recursos/foto)
+[**Venda**](#reference/recursos/venda)
+
+[**Carrinho**](#reference/recursos/carrinho)
+
+[**Clientes**](#reference/recursos/clientes)
+
+[**Roupas**](#reference/recursos/roupas)
+
+[**Marca**](#reference/recursos/marca)
+
+[**Sexo**](#reference/recursos/sexo)
+
+[**Tamanho**](#reference/recursos/tamanho)
+
+[**Foto**](#reference/recursos/foto)
 
 
 # Venda [/venda]
@@ -20,9 +27,13 @@ Dentro das funções temos:
 Vendas realizadas, novas vendas e cancelar.
 
 ##Listar
+
 ##Novo
+
 ##Editar
+
 ##Deletar
+
 
 # Carrinho [/carrinho]
 
