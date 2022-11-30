@@ -52,12 +52,88 @@ Requisições para a API devem seguir os padrões:
       "nome": ""
     }
     ```
-* POST: /api/categoria/{id}
+* DELETE: /api/categoria/{id}
+
+    ```
+    {
+      "id": ""
+    }
+    ```
+# Cliente
+
+* GET: /api/cliente/{id}
 
     ```
     {
       "id": "",
-      "nome": ""
+      "nome": "",
+      "usuario": "",
+      "fone": "",
+      "email": "",
+      "endereço": "",
+      "Complemento": "",
+      "bairro": "",
+      "cep": "",
+      "cidade": "",
+      "estado": "",
+      "pais": "",
+      "foto": ""
+    }
+    ```
+* DELETE: /api/cliente/{id}
+
+    ```
+    {
+      "id": ""
+    }
+    ```
+# Pedido
+
+
+* GET: /api/pedido/{id}
+
+    ```
+    {
+      "id": "",
+      "data": "",
+      "valorTotal": "",
+      "qtdProduto":""
+    }
+    ```
+    
+    
+
+* DELETE /api/pedido/{id}
+    ```
+    {
+      "id": ""
+    }
+    ```
+    
+    
+   # Produto
+    
+
+* GET: /api/produto/{id}
+
+    ```
+    {
+      "id": "",
+      "nome:"" ,
+      "descricao: "",
+      "marca": "", 
+      "img": "",
+      "preco": "",
+      "estoque": "",
+      "qtdPedidoProduto" : ""
+    }
+    ```
+    
+    
+* DELETE /api/produto/{id}
+    ```
+    {
+      "id": ""
     }
     ```
 
