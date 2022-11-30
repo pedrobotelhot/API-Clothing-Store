@@ -24,6 +24,25 @@ Dentro das funções temos:
 # Diagrama de Classes 
 ![image](https://user-images.githubusercontent.com/89109699/204794302-68c35471-da9e-4a7e-9ef2-8ca019e3bf61.png)
 
+## Métodos
+Requisições para a API devem seguir os padrões:
+| Método | Descrição |
+|---|---|
+| `GET` | Retorna informações de um ou mais registros. |
+| `POST` | Utilizado para criar um novo registro. |
+| `PUT` | Atualiza dados de um registro ou altera sua situação. |
+| `DELETE` | Remove um registro do sistema. |
+
+## Respostas
+
+| Código | Descrição |
+|---|---|
+| `200` | Requisição executada com sucesso (success).|
+| `400` | Erros de validação ou os campos informados não existem no sistema.|
+| `401` | Dados de acesso inválidos.|
+| `404` | Registro pesquisado não encontrado (Not found).|
+
+
 # Venda [/venda]
 
 Vendas realizadas, novas vendas e cancelar.
