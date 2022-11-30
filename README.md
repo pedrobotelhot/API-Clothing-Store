@@ -85,28 +85,3 @@ Categoria dentro de roupas.
 
 ## Deletar
 
-# Sexo [/sexo]
-
-Categoria dentro de roupas.
-
-## Listar
-
-## Novo
-
-## Editar
-
-## Deletar
-
-# Tamanho [/tamanho]
-
-Categoria dentro de roupas.
-
-## Listar
-
-## Novo
-
-## Editar
-
-## Deletar
-
-
