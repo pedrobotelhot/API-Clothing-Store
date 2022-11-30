@@ -109,18 +109,4 @@ Categoria dentro de roupas.
 
 ## Deletar
 
-# Foto [/foto]
-
-Categoria dentro de roupas.
-
-## Listar
-
-## Novo
-
-## Editar
-
-## Deletar
-
-
-
 
