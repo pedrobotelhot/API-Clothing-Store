@@ -1,7 +1,7 @@
 # API-Clothing-Store
 Repositorio para entrega final da matéria Desenvolvimento de Software Corporativo do curso Sistemas de Informação
 
-Essa API RESTful vai permitir para um ecommerce ter um controle todas de suas vendas e estoque de suas roupas.
+Essa API RESTful vai permitir para um ecommerce ter um controle de suas vendas e estoque de suas roupas.
 
 Dentro das funções temos:
 
@@ -21,6 +21,8 @@ Dentro das funções temos:
 
 [**Foto**](#reference/recursos/foto)
 
+# Diagrama de Classes 
+![image](https://user-images.githubusercontent.com/89109699/204794302-68c35471-da9e-4a7e-9ef2-8ca019e3bf61.png)
 
 # Venda [/venda]
 
