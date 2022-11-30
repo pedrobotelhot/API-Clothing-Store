@@ -42,6 +42,25 @@ Requisições para a API devem seguir os padrões:
 | `401` | Dados de acesso inválidos.|
 | `404` | Registro pesquisado não encontrado (Not found).|
 
+# Requisições GET e POST.
+
+* GET: /api/categoria/{id}
+
+    ```
+    {
+      "id": "",
+      "nome": ""
+    }
+    ```
+* POST: /api/categoria/{id}
+
+    ```
+    {
+      "id": "",
+      "nome": ""
+    }
+    ```
+
 
 # Venda [/venda]
 
