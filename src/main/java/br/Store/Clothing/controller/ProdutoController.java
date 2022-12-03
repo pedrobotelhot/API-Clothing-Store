@@ -1,6 +1,7 @@
 package br.Store.Clothing.controller;
 import java.util.List;
 
+import br.Store.Clothing.services.ProdutoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -57,7 +58,14 @@ public class ProdutoController {
 		
 		return ResponseEntity.ok(repository.save(produto));
 	}
-	
+
+	@PutMapping("/produto_pedido/produtos/{idProduto}/pedidos/{idPedido}")
+	public ResponseEntity<Produto> putProduto(@PathVariable long idProduto, @PathVariable long idPedido/*, @PathVariable int qtdProduto*/) {
+
+		return ResponseEntity.ok(ProdutoService.compraProduto(idProduto, idPedido/*, qtdProduto*/));
+	}
+
+
 	@DeleteMapping("/{id}")
 	public void deleteProduto(@PathVariable long id) {
 		
