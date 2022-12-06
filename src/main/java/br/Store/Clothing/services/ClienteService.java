@@ -1,8 +1,6 @@
 package br.Store.Clothing.services;
 
-import br.Store.Clothing.controller.ClienteController;
 import br.Store.Clothing.models.Cliente;
-import br.Store.Clothing.models.ClienteLogin;
 import br.Store.Clothing.models.Pedido;
 import br.Store.Clothing.repository.ClienteRepository;
 import br.Store.Clothing.repository.PedidoRepository;

@@ -3,7 +3,6 @@ package br.Store.Clothing.controller;
 import java.util.List;
 import java.util.Optional;
 
-import br.Store.Clothing.models.ClienteLogin;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
